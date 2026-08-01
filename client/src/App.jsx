@@ -1,12 +1,18 @@
 import { useState } from 'react'
+import { Routes, Route, useLocation } from "react-router"
+import Hero from './pages/Hero'
 import './App.css'
+
 
 function App() {
 
 
   return (
     <>
-    <h1>Hello Seascape Whispering Wicks!</h1>
+   <Routes>
+					<Route path="/" element={<Hero />} />
+    
+   </Routes>
     </>
   )
 }

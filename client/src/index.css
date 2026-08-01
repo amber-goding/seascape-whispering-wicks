@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+  --color-tide-950: #0b2a2f;   /* deep water — hero ground */
+  --color-tide-700: #1c4f57;   /* mid tide */
+  --color-seaglass-300: #9dc4b8; /* the broken glass in the tins */
+  --color-beeswax-400: #e8a838; /* raw beeswax, the warm light */
+  --color-beeswax-100: #f7e6c4; /* candle glow */
+  --color-shell-50: #f2efe8;    /* light sections */
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Karla", system-ui, sans-serif;
+}
