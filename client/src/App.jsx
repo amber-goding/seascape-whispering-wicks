@@ -1,20 +1,22 @@
-import { useState } from 'react'
-import { Routes, Route, useLocation } from "react-router"
-import Hero from './pages/Hero'
-import './App.css'
+import { Routes, Route } from "react-router-dom";
 
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import CandleCollection from "./pages/CandleCollection";
+import About from "./pages/About";
 
 function App() {
-
-
   return (
     <>
-   <Routes>
-					<Route path="/" element={<Hero />} />
-    
-   </Routes>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/candles" element={<CandleCollection />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

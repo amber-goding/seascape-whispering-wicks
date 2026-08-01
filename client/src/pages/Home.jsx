@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import HeroCarousel from "../components/HeroCarousel";
 
-const Hero = () => {
+const Home = () => {
   return (
     <section className="bg-gradient-to-br from-sky-100 via-cyan-50 to-amber-50">
       <div className="mx-auto flex min-h-screen max-w-7xl flex-col-reverse items-center justify-center gap-14 px-6 py-16 sm:px-10 lg:flex-row lg:justify-between">
@@ -27,13 +28,13 @@ const Hero = () => {
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center lg:justify-start">
 
-            <button className="rounded-lg bg-teal-600 px-8 py-3 font-semibold text-white shadow-lg transition duration-300 hover:bg-teal-700 hover:shadow-xl">
+            <Link to={"/candles"} className="rounded-lg bg-teal-600 px-8 py-3 font-semibold text-white shadow-lg transition duration-300 hover:bg-teal-700 hover:shadow-xl">
               View Collection
-            </button>
+            </Link>
 
-            <button className="rounded-lg border-2 border-teal-600 px-8 py-3 font-semibold text-teal-700 transition duration-300 hover:bg-teal-600 hover:text-white">
+            <Link to={"/contact"} className="rounded-lg border-2 border-teal-600 px-8 py-3 font-semibold text-teal-700 transition duration-300 hover:bg-teal-600 hover:text-white">
               Contact the Maker
-            </button>
+            </Link>
 
           </div>
 
@@ -65,4 +66,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
