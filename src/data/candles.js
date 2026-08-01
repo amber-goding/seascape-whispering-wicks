@@ -1,10 +1,15 @@
+import conchShell from "../assets/images/conchshell.png";
+import coralReef from "../assets/images/coralreef.png";
+import shark from "../assets/images/shark.png";
+import dolphin from "../assets/images/dolphin.png";
+
 const candles = [
   {
     id: 1,
     name: "Conch Shell Candle",
     scent: "Coconut & Vanilla",
     price: 18,
-    image: "/images/conchshell.png",
+    image: conchShell,
   },
   {
     id: 2,
