@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => {
       react(),
       tailwindcss(),
     ],
+    base: "/seascape-whispering-wicks/",
     server: {
       port: env.PORT || 3000
     }
