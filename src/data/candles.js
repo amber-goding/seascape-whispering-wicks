@@ -2,6 +2,7 @@ import conchShell from "../assets/images/conchshell.png";
 import coralReef from "../assets/images/coralreef.png";
 import shark from "../assets/images/shark.png";
 import dolphin from "../assets/images/dolphin.png";
+import octopus from "../assets/images/octopus.png";
 
 const candles = [
   {
@@ -30,7 +31,7 @@ const candles = [
     name: "Dolphin Candle",
     scent: "Coastal Mist",
     price: 19,
-    image: "/images/dolphin.png",
+    image: dolphin,
   },
   {
     id: 5,
