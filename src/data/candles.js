@@ -16,14 +16,14 @@ const candles = [
     name: "Coral Reef Candle",
     scent: "Sea Salt & Orchid",
     price: 20,
-    image: "/images/coralreef.png",
+    image: coralReef,
   },
   {
     id: 3,
     name: "Shark Candle",
     scent: "Ocean Breeze",
     price: 19,
-    image: "/images/shark.png",
+    image: shark,
   },
   {
     id: 4,
