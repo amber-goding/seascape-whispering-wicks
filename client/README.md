@@ -212,3 +212,6 @@ GitHub: https://github.com/amber-goding
 ## 🌊 About the Brand
 
 Seascape Whispering Wicks creates handcrafted candles inspired by the serenity of the sea. Every candle is carefully made using natural waxes and thoughtfully selected fragrances to bring the calming essence of the coastline into your home.
+
+## To see a live preview of Seascape Whispering Wicks, please visit:
+https://amber-goding.github.io/seascape-whispering-wicks/
